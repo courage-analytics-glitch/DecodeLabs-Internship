@@ -30,3 +30,33 @@ All integrity checks passed. Zero records deleted. Dataset is clean and ready fo
 ## Project 2: Coming Soon
 ---
 *Built by Courage Cobbinah | DecodeLabs Industrial Training | Batch 2026*
+
+
+## Project 2: Exploratory Data Analysis (EDA)
+
+**Dataset:** E-Commerce Orders (1,200 rows, 14 columns)
+
+### What Was Done
+
+- Profiled all 14 columns across data types, null counts, and unique values
+- Calculated descriptive statistics for all 4 numeric columns (Quantity, UnitPrice, ItemsInCart, TotalPrice)
+- Performed categorical analysis across Order Status, Product, Referral Source, Payment Method, and Coupon Code
+- Applied IQR outlier detection method across all numeric columns
+- Identified 8 high-value TotalPrice outliers above $3,330
+- Produced 8 key findings with business diagnosis for each
+
+### Key Findings
+
+- 41.4% of orders are Cancelled or Returned. Only 19.3% are Delivered
+- Instagram is the top acquisition channel at 21.6%
+- TotalPrice is right-skewed. Median ($824) is the reliable revenue benchmark, not the mean ($1,054)
+- Quantity and TotalPrice have a strong positive correlation (r = 0.62)
+
+### Deliverables
+
+- DecodeLabs_Project2_EDA.xlsx
+- DecodeLabs_Project2_EDA_Report.docx
+
+### Outcome
+
+8 actionable business insights produced. Dataset fully analysed across 5 structured sheets.
